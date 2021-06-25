@@ -1,0 +1,16 @@
+.main-heading {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #48a686;
+  color: #ffff;
+}
+i {
+  padding: 15px;
+}
+.margin-one {
+  margin-left: 20px;
+}
+.main-two {
+  margin-right: 45px;
+}
