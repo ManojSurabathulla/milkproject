@@ -63,7 +63,7 @@ a {
   margin-left: 10px;
   display: flex;
   margin-top: 10px;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .card-colum1 {
   width: 30%;
@@ -99,13 +99,22 @@ a {
   color: #48a686;
 }
 .card-img {
-  height: 50%;
+  width: 85%;
+}
+.card-img3 {
+  width: 100%;
 }
 .card-colum2 {
   width: 30%;
   border: 1px solid #e7ece8;
   background-color: #e7ece8;
-  text-align: start;
   margin: 10px;
+  text-align: center;
   padding: 0px 10px;
+}
+.card-img1 {
+  width: 70%;
+}
+.card-img2 {
+  width: 100%;
 }
