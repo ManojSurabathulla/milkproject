@@ -6,11 +6,55 @@
   color: #ffff;
 }
 i {
-  padding: 1px;
+  padding: 15px;
 }
 .margin-one {
   margin-left: 20px;
 }
 .main-two {
   margin-right: 45px;
+}
+.second-heading {
+  display: flex;
+  width: 100%;
+
+  background-color: #e7ece8;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  color: #48a686;
+}
+.second-one {
+  margin-left: 50px;
+}
+ul {
+  justify-content: space-between;
+  margin-left: 450px;
+}
+li {
+  display: inline-flex;
+  margin: 5px;
+  justify-content: space-between;
+}
+.bg-heaading {
+  background-image: url("./img/farmery-bg-gray_1.jpeg");
+  width: 100%;
+  height: 125px;
+  border-bottom: 1px dotted grey;
+}
+.bg-body {
+  text-align: center;
+  padding-top: 3px;
+}
+.bg-text {
+  color: #48a686;
+  font-weight: bold;
+  font-size: 30px;
+}
+.bg-subtext {
+  margin-bottom: 10px;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
