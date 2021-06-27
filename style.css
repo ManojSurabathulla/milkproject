@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 .main-heading {
   display: flex;
   width: 100%;
@@ -91,8 +95,9 @@ a {
   color: #ffff;
   margin-right: 15px;
   font-size: 12px;
-  border-radius: 10px;
+  border-radius: 5px;
   height: 30px;
+  width: 90px;
   border: none;
 }
 .footer-rate {
@@ -116,5 +121,9 @@ a {
   width: 70%;
 }
 .card-img2 {
+  width: 100%;
+}
+.farm {
+  height: 250px;
   width: 100%;
 }
