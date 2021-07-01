@@ -55,12 +55,12 @@ li {
 }
 .bg-subtext {
   margin-bottom: 10px;
-  color: black;
+  color: #48a686;
   margin-top: -20px;
 }
 a {
   text-decoration: none;
-  color: black;
+  color: #48a686;
 }
 .card-row {
   width: 100%;

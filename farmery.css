@@ -41,6 +41,10 @@ li {
   display: inline-flex;
   margin: 5px;
   justify-content: space-between;
+  color: #48a686;
+}
+li a {
+  color: #48a686;
 }
 .bg-heaading {
   background-image: url("./img/farmery-bg-gray_1.jpeg");
@@ -59,8 +63,8 @@ li {
 }
 .bg-subtext {
   margin-bottom: 10px;
-  color: black;
   margin-top: -20px;
+  color: black;
 }
 a {
   text-decoration: none;
@@ -70,8 +74,47 @@ a {
   width: 100%;
   text-align: center;
 }
+.top-text {
+  font-size: 35px;
+  color: #48a686;
+}
 .top-subtext {
-  align-items: center;
-  width: 1024px;
-  margin-left: 220px;
+  text-align: center;
+  width: 50%;
+  margin-left: 325px;
+}
+.card-main-parent {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-parent-1 {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #fbd84a;
+  border-radius: 100%;
+  margin-top: 25px;
+  background-color: #fbd84a;
+  margin-left: 20px;
+}
+.card-text {
+  margin-top: 10px;
+  padding: 59px;
+  text-align: center;
+  font-size: 15px;
+}
+.card-heading {
+  color: #48a686;
+}
+.card-main-parent-1 {
+  display: flex;
+  flex-direction: row;
+}
+.milk-img-bottle {
+  justify-content: center;
+}
+.main-parent {
+  width: auto;
+  height: 500px;
 }
